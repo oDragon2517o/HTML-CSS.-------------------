@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.menu {
+
+
+
+
+    /* border: 1px #000;
+    background-color: #ccc; */
+
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu li {
+
+    list-style-type: none;
+
+
+
+    /* border: 1px solid #000; */
+}
+
+.menu a {
+    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
+
+}
+
+.p1 {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1f3f68;
+
+}
+
+.z1 {
+    width: 425px;
+}
+
+.content-H1 {
+    font-size: 64px;
+    color: #1f3f68;
+    width: 510px;
+}
+
+.content-H2 {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+
+.footer-H3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.content-H4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1f3f68;
+
+}
+
+.content_blok-1 {
+    width: 359px;
+
+}
+
+
+.input {
+    border: 1px solid #356ead;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.button1 {
+    background: #5a98d0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_info_text {
+    width: 495px;
+}
+
+.fh3 {
+    width: 340px;
+}
+
+.footer_TextTelMail ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Работа с макетом ----------------------------------------------*/
+
+.menu {
+    padding-top: 42px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-H1 {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    /* or 116% */
+
+    letter-spacing: 0.04em;
+    /* padding-top: 115px; */
+    margin-bottom: 32px;
+}
+
+.p1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.05em;
+
+    /* Blue_01 */
+
+    color: #1F3F68;
+
+    opacity: 0.6;
+}
+
+.top {
+
+    min-height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.top__box {
+    display: flex;
+    flex-direction: column;
+    height: 768px;
+}
+
+.top__button {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+}
+
+.top__info {
+    flex-grow: 1;
+    padding-top: 115px;
+    background-image: url(foto\ maketa/top__bac.svg);
+    background-repeat: no-repeat;
+    background-position: right 115px;
+    background-size: 44%;
+}
+
+/* Центр */
+
+.footer-H3 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    /* or 128% */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.what-we-do {
+    padding-top: 64px;
+}
+
+.card-box {
+    padding-top: 64px;
+    margin-bottom: 64px;
+}
+
+.content-H4 {
+
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    letter-spacing: 0.05em;
+
+    /* Blue_01 */
+
+    color: #1F3F68;
+
+    margin-bottom: 14px;
+}
+
+.card {
+    width: 359px;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card__link {
+    font-size: 14px;
+    line-height: 30px;
+    /* or 214% */
+
+    letter-spacing: 0.05em;
+
+    /* blue_04 */
+
+    color: #5A98D0;
+    text-decoration: none;
+}
+
+.card__img {
+
+    margin-bottom: 51px;
+    width: 171.94px;
+    height: 120.72px;
+    align-self: center;
+}
+
+
+.text__project {
+    width: 75%;
+    margin: 0 auto;
+    color: #222222;
+    opacity: 1;
+    text-align: center;
+    margin: 32px auto 64px;
+}
+
+.project__img {
+    width: 100%;
+}
+
+.project_item {
+    position: relative;
+    flex-grow: 1;
+
+}
+
+.project__text {
+    font-size: 32px;
+    line-height: 46px;
+    /* or 144% */
+
+    text-align: right;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+.project__parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.project__item__margin {
+    margin-right: 32px;
+}
+
+
+.project__text_2 {
+    font-size: 28px;
+    line-height: 46px;
+    /* identical to box height, or 164% */
+
+    letter-spacing: 0.05em;
+
+    /* white */
+
+    color: #FFFFFF;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+
+/* 7 урок */
+@media(max-width: 1024px) {
+    /* .top__box {
+        height: 100%;
+    } */
+
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .top__info {
+        background-position: right 280px;
+    }
+
+    .card-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 667px) {
+    .top__box {
+        height: 100%;
+    }
+
+    .header {
+        padding-top: 24px;
+    }
+
+    .top {
+        min-height: 376px;
+        padding-bottom: 41px;
+        box-sizing: border-box;
+    }
+
+    .top__info {
+        padding-top: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: none;
+    }
+
+    .content-H1 {
+        width: 100%;
+        font-size: 32px;
+        line-height: 37px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .p1 {
+
+        width: 100%;
+        text-align: center;
+    }
+
+    .top__button {
+        font-size: 12px;
+        line-height: 26px;
+        padding: 4px 8px;
+    }
+
+    .footer-H3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .what-we-do {
+        padding-top: 48px;
+    }
+
+    .card-box {
+        padding-top: 32px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .text__project {
+        width: 100%;
+    }
+
+    .project__text {
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+        right: 16px;
+    }
+
+    .project__text_2 {
+        left: 16px;
+    }
+
+    .project__parent {
+        flex-direction: column;
+        margin-top: 16px;
+    }
+
+    .project__item__margin {
+        margin: 0;
+        margin-bottom: 16px;
+    }
+}
